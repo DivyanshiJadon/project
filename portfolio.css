@@ -106,7 +106,6 @@ span{
     margin-top: 5rem;
     max-width: 500px;
     border-radius: 50%;
-    margin-left:2rem;
     box-shadow: 0 0 25px var(--main_color);
     cursor: pointer;
     transition: 0.4s ease-in-out;
@@ -347,14 +346,14 @@ color: black;
 ::-webkit-scrollbar-track{
     background-color: var(--bg-color);
 }
-.skills{
+.services{
     padding:40px 0px 0px 0px ;
     background: var(--bg-color);
     color: #080808;
     text-align: center;
 
 }
-.skills h2.heading {
+section h2.heading {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -363,30 +362,29 @@ color: black;
     color: white;
     position: relative;
 }
-.skills-container{
+.services-container{
     padding: 0px 70px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     gap: 6rem;
 }
-.skills-box{
+.services-box{
     background-color: var(--main_color);
     height: 300px;
     color: black;
-    display:grid;
     border-radius: 3rem;
     border: 5px solid var(--main_color);
     cursor: pointer;
     transition: 0.4s ease-in-out;
 }
-.skills-box:hover{
+.services-box:hover{
     background:white;
     color: black;
     border: 5px solid var(--main_color);
   transform: scale(1.03);    
 }
-.skills-box .skills-info{
+.services-box .services-info{
     display:flex;
     flex-direction: column;
     text-align: left;
@@ -395,12 +393,12 @@ color: black;
     align-items: baseline;
     padding:5rem 5rem ;
 }
-.skills-info h4{
+.services-info h4{
     font-size: 3rem;
     font-weight: 800;
     line-height: 2;
 }
-.skills-info p{
+.services-info p{
     font-size: 1.6rem;
     font-weight: 600;
     max-height: 100px;
@@ -509,7 +507,7 @@ color: white;
     html{
         font-size: 55%;
     }
-    .skills-container{
+    .services-container{
         padding-bottom: 7rem;
         grid-template-columns: repeat(2,1fr);
         margin: 0 5rem;
@@ -538,7 +536,7 @@ padding-left: 37px;
 .timeline-dot{
     left: 0;
 }
-.skills{
+.services{
     padding-bottom: 7rem;
 }
 .contact form{
@@ -593,10 +591,10 @@ display: block;
 .home-img img{
 width: 56vw;
 }
-.skills h2{
+.services h2{
     margin-bottom: 3rem;
 }
-.skills-container{
+.services-container{
     grid-template-columns: repeat(1,1fr);
 }
 }
