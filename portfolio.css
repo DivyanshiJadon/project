@@ -374,6 +374,7 @@ color: black;
     background-color: var(--main_color);
     height: 300px;
     color: black;
+    display:grid;
     border-radius: 3rem;
     border: 5px solid var(--main_color);
     cursor: pointer;
@@ -385,7 +386,7 @@ color: black;
     border: 5px solid var(--main_color);
   transform: scale(1.03);    
 }
-.skills-box .services-info{
+.skills-box .skills-info{
     display:flex;
     flex-direction: column;
     text-align: left;
@@ -508,7 +509,7 @@ color: white;
     html{
         font-size: 55%;
     }
-    .services-container{
+    .skills-container{
         padding-bottom: 7rem;
         grid-template-columns: repeat(2,1fr);
         margin: 0 5rem;
