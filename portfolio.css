@@ -106,6 +106,7 @@ span{
     margin-top: 5rem;
     max-width: 500px;
     border-radius: 50%;
+    margin-left:5rem;
     box-shadow: 0 0 25px var(--main_color);
     cursor: pointer;
     transition: 0.4s ease-in-out;
@@ -142,7 +143,7 @@ margin: 3rem 1.5rem 3rem 0;
     background-color: var(--main_color);
 
 }
-.btn{
+/* .btn{
 display:inline-block;
 padding: 1rem 2.8rem;
 background: var(--main_color);
@@ -175,7 +176,7 @@ cursor:pointer;
     box-shadow: 0 0 25px var(--main_color);
 background-color: var(--main_color);
 color: black;
-}
+} */
 .text-animation{
     font-size:3.4rem;
     font-weight: 600;
@@ -346,14 +347,14 @@ color: black;
 ::-webkit-scrollbar-track{
     background-color: var(--bg-color);
 }
-.services{
+.skills{
     padding:40px 0px 0px 0px ;
     background: var(--bg-color);
     color: #080808;
     text-align: center;
 
 }
-section h2.heading {
+.skills h2.heading {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -362,14 +363,14 @@ section h2.heading {
     color: white;
     position: relative;
 }
-.services-container{
+.skills-container{
     padding: 0px 70px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     gap: 6rem;
 }
-.services-box{
+.skills-box{
     background-color: var(--main_color);
     height: 300px;
     color: black;
@@ -378,13 +379,13 @@ section h2.heading {
     cursor: pointer;
     transition: 0.4s ease-in-out;
 }
-.services-box:hover{
+.skills-box:hover{
     background:white;
     color: black;
     border: 5px solid var(--main_color);
   transform: scale(1.03);    
 }
-.services-box .services-info{
+.skills-box .services-info{
     display:flex;
     flex-direction: column;
     text-align: left;
@@ -393,12 +394,12 @@ section h2.heading {
     align-items: baseline;
     padding:5rem 5rem ;
 }
-.services-info h4{
+.skills-info h4{
     font-size: 3rem;
     font-weight: 800;
     line-height: 2;
 }
-.services-info p{
+.skills-info p{
     font-size: 1.6rem;
     font-weight: 600;
     max-height: 100px;
