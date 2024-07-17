@@ -407,7 +407,7 @@ color: black;
     line-height: 1.7;
     margin: auto;
 }
-/* .contact{
+.contact{
     background-color: var(--bg-color);
 }
 .contact h2{
@@ -442,7 +442,7 @@ color: black;
 
 .contact form .btn{
     margin-top: 2rem;
-} */
+}
 .footer{
     position: relative;
     bottom: 0;
